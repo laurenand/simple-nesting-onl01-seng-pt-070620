@@ -88,7 +88,7 @@ def adding_matz
 
     programmer_hash
 end
-
+require 'pry'
 def changing_alan
 	programmer_hash = 
  		{
@@ -109,6 +109,7 @@ def changing_alan
      alans_new_info = "GUI"
      
      programmer_hash[:alan_kay][:known_for] = 
+     binding.pry
 end
 
 def adding_to_dennis
